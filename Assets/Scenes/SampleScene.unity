@@ -235,6 +235,7 @@ GameObject:
   - component: {fileID: 756493453}
   - component: {fileID: 756493452}
   - component: {fileID: 756493454}
+  - component: {fileID: 756493455}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -249,7 +250,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756493444}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1f4abb402638e004ca41c9ebc98d58a2, type: 3}
   m_Name: 
@@ -376,11 +377,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756493444}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd98f152dadf3654783eb2dd67bd08f2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  avaibleCandy: 25
+  amountOfPeople: 20
+--- !u!114 &756493455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756493444}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78ece5c1eb19de34a88101568525337a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  x: 2
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
